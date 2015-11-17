@@ -6,7 +6,20 @@ Adds lyrics (via getlyrics) to mp3 file
 Usage
 -----
 
-todo
+    usage: addlyrics [-h] [-i INDEX] [--lang LANG] [--desc DESC] filename term
+
+    positional arguments:
+      filename              Filename of mp3 file to add lyrics
+      term                  Search term, passed to getlyrics
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -i INDEX, --index INDEX
+			    Song index, passed to getlyrics
+      --lang LANG           Three letter code from ISO 639-2. Defaults to 'eng'
+      --desc DESC           Description of lyrics. Defaults to 'Lyrics from
+			    azlyrics.com'
+
 
 Installation
 ------------
