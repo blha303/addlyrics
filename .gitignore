@@ -1,0 +1,7 @@
+*.m4a
+*.mp3
+*.pyc
+env/
+build/
+dist/
+*.egg-info/
