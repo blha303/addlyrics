@@ -4,7 +4,7 @@ from __future__ import print_function
 import sys
 import argparse
 
-from getlyrics import get_lyrics
+from getlyrics.getlyrics import get_lyrics
 import mutagen.id3
 
 
